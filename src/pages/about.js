@@ -1,6 +1,3 @@
-// import React from "react"
-//
-// export default () => <div>Hello world!</div>
 import React from "react";
 import Link from "gatsby-link";
 
@@ -23,10 +20,7 @@ export default () => (
         <ListLink to="/contact/">Contact</ListLink>
       </ul>
     </header>
-    <h1>Hi! I am building a fake Gatsby site as part of a tutorial!</h1>
-    <p>
-      What do I like to do? Lots of course but definitely enjoy building
-      websites.
-    </p>
+    <h1>About me</h1>
+    <p>I’m good enough, I’m smart enough, and gosh darn it, people like me!</p>
   </div>
 );

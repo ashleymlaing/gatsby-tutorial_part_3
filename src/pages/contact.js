@@ -1,6 +1,3 @@
-// import React from "react"
-//
-// export default () => <div>Hello world!</div>
 import React from "react";
 import Link from "gatsby-link";
 
@@ -10,6 +7,7 @@ const ListLink = props =>
       {props.children}
     </Link>
   </li>
+
 
 export default () => (
   <div style={{ margin: `0 auto`, maxWidth: 650, padding: `1.25rem 1rem` }}>
@@ -23,10 +21,9 @@ export default () => (
         <ListLink to="/contact/">Contact</ListLink>
       </ul>
     </header>
-    <h1>Hi! I am building a fake Gatsby site as part of a tutorial!</h1>
+    <h1>I would love to talk! Email me at the address below</h1>
     <p>
-      What do I like to do? Lots of course but definitely enjoy building
-      websites.
+      <a href="mailto:me@example.com">me@example.com</a>
     </p>
   </div>
 );
